@@ -1,0 +1,305 @@
+{
+    "individualPolicies": [
+      {
+        "name": "Visa-Free Entry",
+        "priority": 1,
+        "eligibleCountries": ["France", "Germany", "Italy", "Netherlands", "Spain", "Malaysia", "Singapore", "Brunei"],
+        "duration": 360,
+        "requirements": [
+          "Valid passport with at least three months remaining until expiration date"
+        ],
+        "specialConditions": [
+          "Applies to citizens holding ordinary passports, entering China for tourism, family visit, business, or transit purposes"
+        ]
+      },
+      {
+        "name": "Visa-Free Entry on Mutual Visa Exemption",
+        "priority": 1,
+        "eligibleCountries": ["Albania", "Armenia", "Barbados", "Belarus", "Bosnia and Herzegovina", "Dominica", "Ecuador", "Fiji", "Grenada", "Kazakhstan", "Maldives", "Mauritius", "Qatar", "San Marino", "Serbia", "Seychelles", "Suriname", "The Bahamas", "Tonga", "United Arab Emirates"],
+        "duration": 720,
+        "requirements": [
+          "Valid ordinary passport with at least three months remaining until expiration date"
+        ],
+        "specialConditions": [
+          "Based on mutual visa exemption agreements between China and these countries"
+        ]
+      },
+      {
+        "name": "144-Hour Visa-Free Transit",
+        "priority": 2,
+        "eligibleCountries": ["Austria", "Belgium", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Iceland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Russia", "United Kingdom", "Ireland", "Cyprus", "Bulgaria", "Romania", "Ukraine", "Serbia", "Croatia", "Bosnia and Herzegovina", "Montenegro", "Macedonia", "Albania", "Monaco", "Belarus", "United States", "Canada", "Brazil", "Mexico", "Argentina", "Chile", "Australia", "New Zealand", "South Korea", "Japan", "Singapore", "Brunei", "United Arab Emirates", "Qatar"],
+        "duration": 144,
+        "requirements": [
+          "Valid passport with at least three months remaining until expiration date",
+          "Proof of onward international flight tickets to a third country (confirmed seat number preferred)",
+          "Proof of hotel reservation or accommodation arrangement for the entire stay",
+          "Completed Foreigner Arrival Card (given at the border)"
+        ],
+        "specialConditions": [
+          "Entry and exit must be through approved ports within the same Chinese region, with exceptions for Guangdong Province",
+          "The 144-hour period starts at midnight on the day of arrival",
+          "Onward flight must be to a different country than the origin, with exceptions for Hong Kong and Macau",
+          "Visiting Hong Kong or Macau can refresh the visa for another 144 hours"
+        ],
+        "regionalPorts": [
+          {
+            "region": "Beijing-Tianjin-Hebei",
+            "cities": ["Beijing", "Tianjin", "Shijiazhuang", "Qinhuangdao"],
+            "eligiblePorts": [
+              "Beijing Capital International Airport",
+              "Beijing Daxing International Airport",
+              "Beijing West Railway Station",
+              "Tianjin Binhai International Airport",
+              "Tianjin International Cruise Home Port",
+              "Shijiazhuang Zhengding International Airport",
+              "Port of Qinhuangdao"
+            ],
+            "scopeOfPermittedTravel": {
+              "provinces": ["Beijing", "Tianjin", "Hebei"],
+              "scope": "Beijing, Tianjin and Hebei Province"
+            }
+          },
+          {
+            "region": "Yangtze River Delta",
+            "cities": ["Shanghai", "Nanjing", "Hangzhou", "Ningbo"],
+            "eligiblePorts": [
+              "Shanghai Hongqiao International Airport",
+              "Shanghai Pudong International Airport",
+              "Shanghai Train Station",
+              "Shanghai Port International Cruise Terminal",
+              "Nanjing Lukou International Airport",
+              "Hangzhou Xiaoshan International Airport",
+              "Ningbo Lishe International Airport"
+            ],
+            "scopeOfPermittedTravel": {
+              "provinces": ["Shanghai", "Jiangsu", "Zhejiang"],
+              "scope": "Shanghai, Jiangsu Province and Zhejiang Province"
+            }
+          },
+          {
+            "region": "Guangdong",
+            "cities": ["Guangzhou", "Shenzhen", "Jieyang"],
+            "eligiblePorts": [
+              "Guangzhou Baiyun International Airport",
+              "Shenzhen Bao'an International Airport",
+              "Jieyang Chaoshan International Airport"
+            ],
+            "scopeOfPermittedTravel": {
+              "provinces": ["Guangdong"],
+              "scope": "Guangdong Province"
+            },
+            "specialNote": "For this region, you can exit via any of the 32 eligible ports in Guangdong Province listed at https://gdga.gd.gov.cn/xxgk/zcjd/wjjd/content/post_2286867.html"
+          },
+          {
+            "region": "Liaoning",
+            "cities": ["Shenyang", "Dalian"],
+            "eligiblePorts": [
+              "Shenyang Taoxian International Airport",
+              "Dalian Zhoushuizi International Airport"
+            ],
+            "scopeOfPermittedTravel": {
+              "provinces": ["Liaoning"],
+              "scope": "Liaoning Province"
+            }
+          },
+          {
+            "region": "Shandong",
+            "cities": "Qingdao",
+            "eligiblePorts": [
+              "Qingdao Liuting International Airport",
+              "Qingdao International Cruise Home Port"
+            ],
+            "scopeOfPermittedTravel": {
+              "provinces": ["Shandong"],
+              "scope": "Shandong Province"
+            }
+          },
+          {
+            "region": "Chongqing",
+            "cities": "Chongqing",
+            "eligiblePorts": ["Chongqing Jiangbei International Airport"],
+            "scopeOfPermittedTravel": {
+              "provinces": ["Chongqing"],
+              "scope": "Chongqing"
+            }
+          },
+          {
+            "region": "Sichuan",
+            "cities": "Chengdu",
+            "eligiblePorts": ["Chengdu Shuangliu International Airport"],
+            "scopeOfPermittedTravel": {
+              "provinces": ["Sichuan"],
+              "scope": "11 cities in Sichuan Province: Chengdu, Leshan, Deyang, Suining, Meishan, Ya'an, Ziyang, Neijiang, Zigong, Luzhou, and Yibin"
+            }
+          },
+          {
+            "region": "Shaanxi",
+            "cities": "Xi'An",
+            "eligiblePorts": ["Xi'an Xianyang International Airport"],
+            "scopeOfPermittedTravel": {
+              "provinces": ["Shaanxi"],
+              "scope": "2 cities in Shaanxi Province: Xi'an and Xianyang"
+            }
+          },
+          {
+            "region": "Fujian",
+            "cities": "Xiamen",
+            "eligiblePorts": [
+              "Xiamen Gaoqi International Airport",
+              "Xiamen International Cruise Center Port"
+            ],
+            "scopeOfPermittedTravel": {
+              "provinces": ["Fujian"],
+              "scope": "Xiamen"
+            }
+          },
+          {
+            "region": "Hubei",
+            "cities": "Wuhan",
+            "eligiblePorts": ["Wuhan Tianhe International Airport"],
+            "scopeOfPermittedTravel": {
+              "provinces": ["Hubei"],
+              "scope": "Wuhan"
+            }
+          },
+          {
+            "region": "Yunnan",
+            "cities": "Kunming",
+            "eligiblePorts": ["Kunming Changshui International Airport"],
+            "scopeOfPermittedTravel": {
+              "provinces": ["Yunnan"],
+              "scope": "Kunming"
+            }
+          }
+        ]
+      },
+      {
+        "name": "72-Hour Visa-Free Transit",
+        "priority": 3,
+        "eligibleCountries": ["Austria", "Belgium", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Iceland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Russia", "United Kingdom", "Ireland", "Cyprus", "Bulgaria", "Romania", "Ukraine", "Serbia", "Croatia", "Bosnia and Herzegovina", "Montenegro", "Macedonia", "Albania", "Monaco", "Belarus", "United States", "Canada", "Brazil", "Mexico", "Argentina", "Chile", "Australia", "New Zealand", "South Korea", "Japan", "Singapore", "Brunei", "United Arab Emirates", "Qatar"],
+        "duration": 72,
+        "requirements": [
+          "Valid passport with at least three months remaining until expiration date",
+          "Proof of onward international flight tickets to a third country (confirmed seat number preferred)",
+          "Proof of hotel reservation or accommodation arrangement for the entire stay",
+          "Completed Foreigner Arrival Card (given at the border)"
+        ],
+        "specialConditions": [
+          "Entry and exit must be through approved ports within the same Chinese region",
+          "The 72-hour period starts at midnight on the day of arrival",
+          "Onward flight must be to a different country than the origin, with exceptions for Hong Kong and Macau"
+        ],
+        "regionalPorts": [
+          {
+            "region": "Hunan",
+            "cities": "Changsha",
+            "eligiblePorts": ["Changsha Huanghua International Airport"],
+            "scopeOfPermittedTravel": {
+              "provinces": ["Hunan"],
+              "scope": "Hunan Province"
+            }
+          },
+          {
+            "region": "Heilongjiang",
+            "cities": "Harbin",
+            "eligiblePorts": ["Harbin Taiping International Airport"],
+            "scopeOfPermittedTravel": {
+              "provinces": ["Heilongjiang"],
+              "scope": "Harbin"
+            }
+          },
+          {
+            "region": "Guangxi",
+            "cities": "Guilin",
+            "eligiblePorts": ["Guilin Liangjiang International Airport"],
+            "scopeOfPermittedTravel": {
+              "provinces": ["Guangxi"],
+              "scope": "Guilin"
+            }
+          }
+        ]
+      },
+      {
+        "name": "24-Hour Visa-Free Transit",
+        "priority": 4,
+        "eligibleCountries": "All",
+        "duration": 24,
+        "requirements": [
+          "Valid passport",
+          "Onward ticket to a third country"
+        ],
+        "specialConditions": [
+          "Must remain in the transit area of the airport"
+        ]
+      }
+    ],
+    "groupPolicies": [
+      {
+        "name": "Visa-Free Group Entry on Mutual Visa Exemption",
+        "priority": 1,
+        "eligibleCountries": ["Azerbaijan", "Georgia", "Moldova", "Russia", "Turkmenistan"],
+        "duration": 720,
+        "requirements": [
+          "Valid ordinary passport",
+          "Travel in tour groups organized by authorized travel agencies"
+        ],
+        "specialConditions": [
+          "Applies only to group travel organized by authorized travel agencies from either the origin country or China",
+          "Specific document requirements should be confirmed with the travel agency"
+        ]
+      },
+      {
+        "name": "15-Day Visa-Free Entry to Hainan",
+        "priority": 2,
+        "eligibleCountries": ["Germany", "France", "Britain", "Italy", "Spain", "Netherlands", "Switzerland", "Austria", "Sweden", "Denmark", "Norway", "Finland", "Belgium", "Czech Republic", "Estonia", "Greece", "Hungary", "Iceland", "Latvia", "Lithuania", "Luxembourg", "Malta", "Poland", "Portugal", "Slovakia", "Slovenia"],
+        "duration": 360,
+        "requirements": [
+          "Valid passport",
+          "Round-trip ticket",
+          "Proof of hotel reservation"
+        ],
+        "specialConditions": [
+          "Only applicable for entry through Hainan Province",
+          "Must be part of a tour group organized by a Hainan travel agency"
+        ],
+        "eligiblePorts": [
+          "Haikou Meilan International Airport",
+          "Sanya Phoenix International Airport"
+        ]
+      },
+      {
+        "name": "30-Day Visa-Free Entry to Hainan",
+        "priority": 2,
+        "eligibleCountries": ["Russia", "United Kingdom", "France", "Germany", "Norway", "Ukraine", "Italy", "Austria", "Finland", "Netherlands", "Denmark", "Switzerland", "Sweden", "Spain", "Belgium", "Czech Republic", "Estonia", "Greece", "Hungary", "Iceland", "Latvia", "Lithuania", "Luxembourg", "Malta", "Poland", "Portugal", "Slovakia", "Slovenia", "Ireland", "Cyprus", "Bulgaria", "Romania", "Serbia", "Croatia", "Bosnia and Herzegovina", "Montenegro", "Macedonia", "Albania", "United States", "Canada", "Brazil", "Mexico", "Argentina", "Chile", "Australia", "New Zealand", "South Korea", "Japan", "Singapore", "Malaysia", "Thailand", "Kazakhstan", "Philippines", "Indonesia", "Brunei", "United Arab Emirates", "Qatar", "Monaco", "Belarus"],
+        "duration": 720,
+        "requirements": [
+          "Valid passport",
+          "Round-trip ticket",
+          "Proof of hotel reservation"
+        ],
+        "specialConditions": [
+          "Only applicable for entry through Hainan Province"
+        ],
+        "eligiblePorts": [
+          "Haikou Meilan International Airport",
+          "Sanya Phoenix International Airport"
+        ]
+      },
+      {
+        "name": "6-Day Visa-Free Entry to Guilin",
+        "priority": 2,
+        "eligibleCountries": "All",
+        "duration": 144,
+        "requirements": [
+          "Valid passport",
+          "Booking with registered Guilin travel agency",
+          "Round-trip ticket"
+        ],
+        "specialConditions": [
+          "Only applicable for entry through Guilin",
+          "Must be part of a tour group"
+        ],
+        "eligiblePorts": ["Guilin Liangjiang International Airport"]
+      }
+    ]
+  }

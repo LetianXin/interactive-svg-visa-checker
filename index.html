@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Interactive SVG Maps of the World</title>
+    <meta
+      name="description"
+      content="Administrative SVG maps of the world. Download SVG map by country or get the whole package. Open source interactive SVG maps."
+    />
+    <meta name="theme-color" content="#2c3e50" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <section class="sidebar">
+        <h1 class="title">Interactive SVG Maps of the World</h1>
+        <p class="info">
+          This package includes interactive SVG maps of 164 UN member countries. Remaining countries will be included as
+          soon as possible. You can download individual SVG maps or the whole package.
+        </p>
+        <label>Select a country:</label>
+        <select id="mapChange" onchange="changeMap()"></select>
+        <form id="nationality-form">
+          <input type="text" id="nationality-input" placeholder="Enter your nationality">
+          <button id="submit" type="submit">Submit</button>
+        </form>
+        <button class="random" onclick="randomMap()">Random Map</button>
+        <h2 id="country-name">The Republic of Turkey</h2>
+
+
+      </section>
+      <section class="content">
+
+        <!-- visa info dropdown START -->
+        <div id="visaInfo_Wrapper" class="visa-info-wrapper" >
+          <div id="visaInfo_VisaFree" class="visa-drop-down visa-free" ></div>
+          <div id="visaInfo_144" class="visa-drop-down 144" ></div>
+          <div id="visaInfo_72" class="visa-drop-down 72" ></div>
+        </div>
+        <!-- visa info dropdown END -->
+        
+        <!-- interactive map START -->
+        <div class="map-wrapper">
+          <div id="toolTip"></div>
+          <object id="map" data="maps/CN.svg" type="image/svg+xml"></object>
+
+            <!-- map info START -->
+            <div class="map-info-wrapper" >
+              <div id="travel-scope" class="map-info" ></div>
+              <div id="port" class="map-info" ></div>
+            </div>
+            <!-- map info END -->
+
+        </div>
+        <!-- interactive map END -->
+        
+
+
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>
